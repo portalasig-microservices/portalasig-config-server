@@ -1,0 +1,17 @@
+spring:
+  security:
+    user:
+      name: portalasig
+      password: test_s3cr3t
+  application:
+    name: portalasig-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:fuhranku/portalasig-config-repo.git
+          search-paths: services
+          clone-on-start: true
+          default-label: ms
+
+server.port: 8888

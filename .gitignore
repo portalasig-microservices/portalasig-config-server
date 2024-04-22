@@ -1,0 +1,9 @@
+# IntelliJ IDEA folder
+.idea
+
+# Build folder
+target
+
+# Maven wrapper
+mvnw
+mvnw.cmd
