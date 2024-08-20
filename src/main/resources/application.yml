@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:fuhranku/portalasig-config-repo.git
+          uri: git@github.com:portalasig-microservices/portalasig-config-repo.git
           search-paths: services
           clone-on-start: true
           default-label: ms
