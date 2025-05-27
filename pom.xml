@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.portalasig</groupId>
-		<artifactId>core-parent</artifactId>
+		<artifactId>core-boot</artifactId>
 		<version>0.0.2-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -15,9 +15,11 @@
 
 	<name>spring-cloud-server</name>
 	<description>Config server</description>
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -34,4 +36,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
